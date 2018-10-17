@@ -1,4 +1,7 @@
 # LoadingEditText
+[![API](https://img.shields.io/badge/API-17%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=17)
+![](https://github.com/superjobru/LoadingEditText/raw/master/images/LocationEdiText.png)
+
 
 The library is an advanced edit text with a rigth drawable that allows you to show the progress bar when you click on the right icon. For example, you can use component for geolocation request.
 
@@ -47,11 +50,8 @@ You can use own right drawable:
 
 ##### In XML
 ```xml
-<ru.superjob.loadingedittext.LoadingEditText
-...
 android:drawableRight="@drawable/ic_circle"
 android:drawableEnd="@drawable/ic_circle"
-/>
 ```
 
 ##### In code
@@ -61,15 +61,18 @@ loadingEditText.setRightDrawable(R.drawable.ic_near_me_gray)
 #### Progress animation
 ##### In XML
 ```xml
-<ru.superjob.loadingedittext.LoadingEditText
-...
 app:customLoadAnimation="@drawable/avd_anim"
-/>
 ```
 
 ##### In code
 ```java
 loadingEditText.setCustomLoadingDrawable(R.drawable.avd_anim)
+```
+
+Also, you can **lock**(disable) the field when progress is appearing:
+```
+app:lockingField="true"
+
 ```
 
 ## Adding a listener
