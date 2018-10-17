@@ -13,7 +13,7 @@ Component extended **EditText** and using **animated vector** drawable for progr
 ## Add to dependencies
 ```java
 dependencies {
-    implementation 'ru.superjob:loadingedittext:1.0.1'
+    implementation 'ru.superjob:loadingedittext:1.0.3'
 }
 ```
 #### Enable support vectorsEnable support vectors
