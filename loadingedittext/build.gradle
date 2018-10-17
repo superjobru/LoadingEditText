@@ -13,7 +13,7 @@ android {
 		minSdkVersion 17
 		targetSdkVersion 28
 		versionCode 1
-		versionName "1.0.1"
+		versionName "1.0.2"
 		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
 	}
@@ -29,7 +29,7 @@ android {
 	ext.artifact = [
 			'groupId': 'ru.superjob',
 			'id'     : 'loadingedittext',
-			'version': '1.0.1',
+			'version': '1.0.2',
 			'siteUrl': 'https://github.com',
 			'gitUrl' : 'https://github.com',
 			'userOrg': 'superjob',
