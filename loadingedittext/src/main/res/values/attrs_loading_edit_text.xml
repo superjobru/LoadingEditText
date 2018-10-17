@@ -1,0 +1,9 @@
+<resources>
+	<declare-styleable name="LoadingEditText">
+
+		<attr name="android:drawableRight" format="reference" />
+		<attr name="android:drawableEnd" format="reference" />
+		<attr name="lockingField" format="boolean" />
+		<attr name="customLoadAnimation" format="reference" />
+	</declare-styleable>
+</resources>
